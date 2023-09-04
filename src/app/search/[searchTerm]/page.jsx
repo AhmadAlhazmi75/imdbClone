@@ -1,5 +1,4 @@
 const { default: Results } = require("@/components/Results");
-export const dynamic = "force-dynamic"; // this is the fix
 async function SearchPage({ params }) {
   const searchTerm = params.searchTerm;
   const res = await fetch(
